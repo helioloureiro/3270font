@@ -1,3 +1,125 @@
+v.2.0.0
+-------
+
+- Added ˎ, qqˏ, ː, ˑ, ˤ, ˬ, ̀, ̂, ̃, ̄, ̅, ̆, ̇, ̈, ̊, ̋, ̌, Ͱ, ͱ, Ͳ, ͳ, Ϳ, Ϗ, ϐ, ϑ,
+  ϒ, ϓ, ϔ, ϖ, Ϟ, Ϸ, ϸ, Ҕ, ҕ, Җ, җ, Ҙ, ҙ, Қ, қ, Ҝ, ҝ, ҟ, Ҡ, ҡ, Ң, ң, Ҥ, ҥ,
+  Ҧ, ҧ, Ҩ, ҩ, ү, Ұ, ұ, Ҳ, ҳ, Ҵ, ҵ, Ҷ, ҷ, Ҹ, ҹ, Һ, һ, Ҽ, ҽ, Ҿ, ҿ, Ӏ, ӏ, ӓ,
+  Ә, ә, Ӛ, ӛ, Ӝ, ӝ, Ӟ, ӟ, Ӡ, ӡ, Ӣ, ӣ, Ӥ, ӥ, Ӧ, ӧ, Ө, ө, Ӫ, ӫ, Ӭ, ӭ, Ӯ, ӯ,
+  Ӱ, ӱ, Ӳ, ӳ, Ӵ, ӵ, Ӷ, ӷ, Ӹ, ӹ, Ӻ, ӻ, Ӽ, ӽ, Ӿ, ӿ, Ԁ, ԁ, Ԅ, ԅ, Ԇ, Ԇ, ԇ, Ԉ,
+  ԉ, Ԋ, ԋ, Ԍ, ԍ, Ԏ, ԏ, ※, ☮, ✕, ❌,
+- Added missing Powerline symbols at the right places
+- Adjust default width to 540 to better reflect underlying bitmaps
+- Generated bitmap glyphs
+- Added acutecomb glyph
+- Fixed 𝗗, Ő, —, Ò, Ÿ
+- Added math alphabets and digit ranges
+- Changed default underline position
+- Fixed proportions on 3x2 graphic block (not mapped yet)
+- Fixed some overlap and rounding issues
+- Add missing glyph slots up to uni04CF
+
+v.1.2.23
+--------
+
+- Simplify tilde
+- Added ⎇ and ⎈
+- Added APL symbols (tentative set)
+- Change zip target dependency to derived instead of all (doesn't
+  require PIL)
+
+v.1.2.22
+--------
+
+- Removed unused Hangul characters
+- Added Ogham symbols
+- Add missing trademark notice
+- Added SIL Open Font License option
+- Fix line drawing discontiuities
+
+v.1.2.21
+--------
+
+- Build process now uses a build folder
+- Added 💖, 😪, ⇤, ⇥, 𝖠-𝟿 (math symbols), ѝ, Ѝ, ∓, ∛, ∜, ∝, ∀, ∁, ∃, ∄, ∅,
+  ⏏, ↚, ↛, ∈, ∉, ∊, ∋, ∌, ∍, ∐
+- Added placeholders for Ogham
+
+v.1.2.20
+--------
+
+- Force extension of 4 and 6 to properly render on Linux
+- Added "￼", "�", "⋮", "⅟", U+e16c, "⁋", "⁎", "⁑", "Ⅰ", "Ⅴ", "Ⅹ", "Ⅼ",
+  "Ⅽ", "Ⅾ", "Ⅿ", "℗", "⋎"
+- Fixed "❮" and "❯"
+
+v.1.2.19
+--------
+
+- Added normal "⸨" and "⸩", full-width "｟" and "｠", ❮, ♡, ♢, ♤, ♧, ♁,
+  ⅐, ⅑, ⅒, ⅓, ⅔, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚
+- Fixed "⌚", "w", "4", "6"
+
+v.1.2.18
+--------
+- Improved sample image generation (rendering can be now tested!)
+- Sample image is generated in CI
+- Added missing WGL4 glyphs
+- Rendering fixes for "p" and "8" for lower resolution screens
+- Numerous fixes (git log is your friend)
+
+v1.2.17
+-------
+- Added glyps for ␀, ␁, ␂, ␃, ␄, ␅, ␆, ␇, ␈, ␉, ␊, ␋, ␌, ␍, ␎, ␏, ␐, ␑,
+  ␒, ␓, ␔, ␕, ␖, ␗, ␘, ␙, ␚, ␛, ␜, ␝, ␞, ␟, ␠, ␡, ∇, ⏨, ⌦, ⌧ and ⌫
+- Added ➜
+
+v1.2.16
+-------
+- Added ⧻, ␢, №, Ё and ъ
+
+v1.2.15
+-------
+- Added ⏻, ⏼, ⭘, ⏽, ⏾ and ⯒
+- Added Ў, ў, Џ, џ, Ћ and ћ
+- Added Ž, ž, Ơ, Ư, ơ, ư, Š, š, Э, э, ё, м, щ and ы
+- Fixed u
+- Made ‘ and ’ more distinctive
+- Added 'upload' target to Makefile
+- Added К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ш, Щ, Ь, Ю, Я, Ч, Ъ, Ы,
+  а, б, в, г, д
+- Added ▶, ✱, ❯, ◼
+- Added А, Б, В, Г, Д, Е, Ж, З, И and Й
+- Added ✓
+- Added Ǝ, и and ˚
+- Added ✖ glyph
+
+v1.2.14
+-------
+- Added ⚓ glyph
+- Added ‘ and ’ (quoteleft and quoteright)
+- Added ✘ (used by Homebrew)
+- Add help target to help message
+- Fix the help message
+- Add upped case delta glyph
+- `make install` now installs on OSX
+
+v1.2.13
+-------
+- Corrected codepoint for single beer, added two-beer glyph
+
+v1.2.12
+-------
+- Add a beer mug (used by Homebrew)
+- Fix regex in Makefile test target
+- Make the powerline up arrow taller
+
+v1.2.11
+-------
+- Add missing dotted Irish alphabet chars
+- Add shorter f and t for easier accent composition
+- Use wider traces for ✎
+- Added a SemiNarrow variant 492 units wide
+
 v1.2.10
 -------
 - Small fixes to a and e
